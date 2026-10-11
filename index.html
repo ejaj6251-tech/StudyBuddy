@@ -1,1 +1,62 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><p id="studyStreak">🔥 Study Streak: 0 days</p>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyBuddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><p id="studyStreak">🔥 Study Streak: 0 days</p>
+
+    <div class="app-container">
+    <h1>StudyBuddy 📚</h1>
+    <button id="themeToggle">🌙 Dark Mode</button>
+    
+<p id="progress">0 of 0 tasks completed</p>
+
+<div class="progress-bar">
+    <div id="progressFill"></div>
+</div>
+
+<p id="welcomeMessage">Welcome to StudyBuddy! 👋</p>
+<p id="todayDate"></p>
+<p id="studyStreak">🔥 Study Streak: 0 days</p>
+<p id="weeklyStats">📊 This Week: 0 tasks completed</p>
+
+<div class="daily-goal">
+    <label for="dailyGoal">🎯 Daily Study Goal:</label>
+    <input type="number" id="dailyGoal" min="1" value="5">
+</div>
+
+<p id="goalProgress">0 / 5 tasks completed</p>
+
+    <p>Your student life, organized.</p>
+
+    <section class="tasks-section">
+        <h2>📚 Today's Tasks</h2>
+        
+<div class="task-input">
+    <input type="text" id="taskInput" placeholder="Enter a study task...">
+    <button id="addTaskBtn">+ Add Task</button>
+</div>
+<div class="task-search">
+    <input type="text" id="searchTasks" placeholder="🔎 Search tasks...">
+    <button id="clearSearchBtn">Clear Search</button>
+</div>
+<div class="task-filters">
+    <button id="showAllBtn">All Tasks</button>
+    <button id="showActiveBtn">Active Tasks</button>
+    <button id="showCompletedBtn">Completed Tasks</button>
+    <button id="clearAllBtn">Clear All Tasks</button>
+</div>
+
+<ul id="taskList"></ul>
+
+    </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
