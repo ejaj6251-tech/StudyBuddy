@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.ejaj6251.studybuddy",
+        "sha256_cert_fingerprints": ["17:1A:3A:6E:DB:05:CC:02:26:29:C1:E1:93:85:7A:89:70:0B:ED:E7:38:D8:52:FF:13:E9:B3:E0:79:B7:4D:6F"]
+      }
+    }]
